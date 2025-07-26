@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-image: url(image/23f2f9e0ea92c3367cec9fb69df1d6ea.jpg);
+background-size: cover;
+}
+.wrapper{
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    border: 5px solid white;
+    border-radius: 5px 35px 5px 35px;
+    height: 550px;
+    width: 400px;
+    background-color: transparent
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 10px;
+
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+}
+.hlo input{
+    border-radius: 20px;
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+}
+.hlo{
+    font-size: 15px;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.llo{
+    font-size: 18px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hannan{
+    font-size: 18px;
+    color: white;
+    padding-top: 12px;
+}
+.hannan select{
+margin-top: 15px;
+}
+.btn input{
+    width: 180px;
+    height: 30px;
+border-radius: 30px;
+}
+.btn input:hover{
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    background-color: #0F67B1;
+}
